@@ -1,0 +1,6 @@
+todo_base_url: https://jsonplaceholder.typicode.com
+
+wiremock:
+  server:
+    files: classpath:/__files
+    stubs: classpath:/mappings

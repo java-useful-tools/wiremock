@@ -1,0 +1,12 @@
+todo_base_url: https://jsonplaceholder.typicode.com
+
+wiremock:
+  server:
+    files: classpath:/__files
+    stubs: classpath:/mappings
+
+
+stubrunner:
+  cloud.stubbed.discovery.enabled: false
+  ids: com.refactorizando.sample:spring-cloud-contract-producer:+:stubs:8091 
+  stubs-mode: local
